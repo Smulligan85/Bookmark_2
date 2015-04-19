@@ -7,4 +7,3 @@ class UserMailer < ApplicationMailer
     mail(to: @user.email, subject: 'Bookmark Notification')
   end
 end
-end
