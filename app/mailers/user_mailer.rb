@@ -3,7 +3,7 @@ class UserMailer < ApplicationMailer
  
   def bookmark_email(user)
     @user = user
-    @url  = 'https://secret-inlet-3534.herokuapp.com/users/sign_in'
+    @url  = 'http://example.com/login'
     mail(to: @user.email, subject: 'Bookmark Notification')
   end
 end
